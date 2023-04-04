@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-weight: 400;
+    user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+}
+.card{
+    width: 50%;
+    background: #222;
+    height: 80vh;
+    overflow: scroll;
+    color: white;
+    padding: 13px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px gray, 0px 0px 5px gray;
+}
+.card::-webkit-scrollbar{
+    display: none;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+form{
+    background-color: #222;
+}
+.todo-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border: none;
+    outline: none;
+    width: 65%;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #222;
+    border: 2px solid white;
+    color: rgb(170, 252, 255);
+}
+.btn{
+    width: 120px;
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+#lists{
+    
+}
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 8px  0 8px 12px;
+    border-radius: 12px;
+    margin: 5px 0;
+    transition: .5s;
+}
+.li-style:nth-child(even){
+    background-color: rgb(66, 64, 64);
+}
+.li-style:hover{
+    background-color: #555;
+}
+.bg-success{
+    margin: .5rem 0;
+    padding: 0.5rem;
+    background-color: #ddffdd;
+    border-left: 6px solid #06aa6d;
+    border-radius: 8px;
+    color: black;
+}
+.bg-danger{
+    margin: .5rem 0;
+    padding: 0.5rem;
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+    border-radius: 8px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
